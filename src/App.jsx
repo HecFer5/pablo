@@ -14,7 +14,8 @@ import NuevoRegistro from './componentes/Alertas/NuevoRegistro'
 import TablaNueva from './componentes/TablaNueva'
 import TablaInactivos from './componentes/TablaInactivos'
 import Ficha from './componentes/Ficha.jsx'
-import NavBar4 from './componentes/NavBar4'
+// import NavBar4 from './componentes/NavBar4'
+import NavBar5 from './componentes/NavBar5'
 import Portada from './paginas/Portada'
 // import SidpacienteeBar from './componentes/SidpacienteeBar'
 function App() {
@@ -23,7 +24,7 @@ function App() {
   return (
     // className='container bg-orange-200 pt-20'
     <div>
-      <NavBar4 />
+      <NavBar5 />
       <TareasContextProv>
         <Routes>
           <Route path='/' element={<Portada />} />
